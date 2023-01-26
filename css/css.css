@@ -1,9 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 header {
     text-align: center;
     background-color: black;
 }
-body {
-    text-align: center;
+main {
     font-family: Verdana;
 }
 
@@ -13,12 +15,12 @@ img {
 }
 
 .entete {
-    height: 70px;
+    max-width:  160px;
 }
 
 h1 {
     font-family: Georgia;
-    color: #ef9f08;
+    color: #FDC032;
 }
 
 h2 {
@@ -35,10 +37,33 @@ p {
     height: 120%;
     text-align: justify;
 }
+
 a {
     a-style-type: none;
-    color: #3b670e;
+    color: #00A24B;
 }
+
 a:hover {
-    color: #9d6e39;
+    color: #E8A062;
+}
+
+li {
+    padding: 0%;
+}
+
+.beurgeur {
+    display: grid;
+    grid-template-rows: 50fr 50fr;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20%;
+}
+.pain {
+    background-color: #E8A062;
+}
+.viende {
+    background-color: red;
+    border: 100px;
+    border-top-color: #FDC032;
+    border-bottom-color: #00A24B;
 }
