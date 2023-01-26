@@ -3,6 +3,7 @@
 }
 
 header {
+    padding: initial;
     text-align: center;
     background-color: black;
 }
@@ -56,19 +57,33 @@ li {
     padding: 0%;
 }
 
-.beurgeur {
+.burger {
     display: grid;
-    grid-template-rows: 50fr 50fr;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20%;
-}
-.pain {
     background-color: #E8A062;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+
 .viende {
+    border: solid;
     background-color: #823922;
     border: 100px;
     border-top-color: #FDC032;
     border-bottom-color: #00A24B;
+}
+
+footer {
+    max-width: 300px;
+    border-radius: 20%;
+    text-align: center;
+    background-color: #E8A062;
+}
+
+.seule {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
