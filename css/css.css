@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    background-color: black;
+}
+body {
+    text-align: center;
+    font-family: Verdana;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.entete {
+    height: 70px;
+}
+
+h1 {
+    font-family: Georgia;
+    color: #ef9f08;
+}
+
+h2 {
+    font-family: Georgia;
+
+}
+
+
+.notation-image {
+
+}
+
+p {
+    height: 120%;
+    text-align: justify;
+}
+a {
+    a-style-type: none;
+    color: #3b670e;
+}
+a:hover {
+    color: #9d6e39;
+}
