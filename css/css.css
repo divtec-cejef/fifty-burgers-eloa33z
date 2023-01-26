@@ -1,11 +1,16 @@
 * {
     box-sizing: border-box;
 }
+
 header {
     text-align: center;
     background-color: black;
 }
+
 main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
     font-family: Verdana;
 }
 
@@ -62,7 +67,7 @@ li {
     background-color: #E8A062;
 }
 .viende {
-    background-color: red;
+    background-color: #823922;
     border: 100px;
     border-top-color: #FDC032;
     border-bottom-color: #00A24B;
